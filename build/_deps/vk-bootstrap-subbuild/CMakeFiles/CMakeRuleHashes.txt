@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+45e0d42c4052cdba1df47af2af37bb96 CMakeFiles/vk-bootstrap-populate
+3130c25de791735981816029e55acba4 CMakeFiles/vk-bootstrap-populate-complete
+4d2212cda35658338355fd49cd14d153 vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-build
+f73b5affd45e010d6073eb558d47904d vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-configure
+11d3a6a0d9af10ae1248300761c43db7 vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-download
+0b7f39e24b724560e006ec379c63949f vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-install
+9691df70f2bc7522cfa5a75c335dd603 vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-mkdir
+d97db4aeab834ab66437ee8523351159 vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-patch
+c8273adef1d0a253d71a108aec4b93e9 vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-test
+59e316b71ff4f9d0ac233456c9929f00 vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-update

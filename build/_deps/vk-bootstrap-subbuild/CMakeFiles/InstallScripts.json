@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

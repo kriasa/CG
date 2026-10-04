@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule

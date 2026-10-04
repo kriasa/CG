@@ -1,0 +1,14 @@
+# Target labels
+ vulkanmemoryallocator-populate
+# Source files and their labels
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate-complete.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-build.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-configure.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-download.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-install.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-mkdir.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-patch.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-test.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-update.rule

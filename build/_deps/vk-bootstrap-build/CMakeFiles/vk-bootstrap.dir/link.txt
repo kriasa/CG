@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libvk-bootstrap.a "CMakeFiles/vk-bootstrap.dir/src/VkBootstrap.cpp.obj"
+C:\msys64\ucrt64\bin\ranlib.exe libvk-bootstrap.a

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate-complete.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-build.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-configure.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-download.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-install.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-patch.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-test.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-subbuild/vulkanmemoryallocator-populate-prefix/src/vulkanmemoryallocator-populate-stamp/vulkanmemoryallocator-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vulkanmemoryallocator-populate"
+		],
+		"name" : "vulkanmemoryallocator-populate"
+	}
+}

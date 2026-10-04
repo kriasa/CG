@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update.rule

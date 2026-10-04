@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/3_kurs/CG/vulkan-starter-app/build/cmake_install.cmake",
+		"F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-build/cmake_install.cmake",
+		"F:/3_kurs/CG/vulkan-starter-app/build/_deps/glfw-build/src/cmake_install.cmake",
+		"F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-build/cmake_install.cmake",
+		"F:/3_kurs/CG/vulkan-starter-app/build/_deps/vulkanmemoryallocator-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

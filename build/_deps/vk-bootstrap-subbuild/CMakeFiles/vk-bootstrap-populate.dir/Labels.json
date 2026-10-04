@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate-complete.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-build.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-configure.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-download.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-install.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-patch.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-test.rule"
+		},
+		{
+			"file" : "F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vk-bootstrap-populate"
+		],
+		"name" : "vk-bootstrap-populate"
+	}
+}

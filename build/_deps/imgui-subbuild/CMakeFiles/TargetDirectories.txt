@@ -1,0 +1,3 @@
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.dir
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/CMakeFiles/edit_cache.dir
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-subbuild/CMakeFiles/rebuild_cache.dir

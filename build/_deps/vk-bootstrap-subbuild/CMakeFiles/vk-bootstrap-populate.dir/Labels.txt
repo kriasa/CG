@@ -1,0 +1,14 @@
+# Target labels
+ vk-bootstrap-populate
+# Source files and their labels
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate-complete.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-build.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-configure.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-download.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-install.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-mkdir.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-patch.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-test.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/vk-bootstrap-subbuild/vk-bootstrap-populate-prefix/src/vk-bootstrap-populate-stamp/vk-bootstrap-populate-update.rule
