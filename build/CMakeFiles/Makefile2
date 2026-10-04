@@ -176,12 +176,12 @@ CMakeFiles/vulkan-starter-app.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/
 CMakeFiles/vulkan-starter-app.dir/all: _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkan-starter-app.dir\build.make CMakeFiles/vulkan-starter-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkan-starter-app.dir\build.make CMakeFiles/vulkan-starter-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36 "Built target vulkan-starter-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38 "Built target vulkan-starter-app"
 .PHONY : CMakeFiles/vulkan-starter-app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vulkan-starter-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/vulkan-starter-app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles 0
 .PHONY : CMakeFiles/vulkan-starter-app.dir/rule
@@ -193,7 +193,7 @@ vulkan-starter-app: CMakeFiles/vulkan-starter-app.dir/rule
 # codegen rule for target.
 CMakeFiles/vulkan-starter-app.dir/codegen: CMakeFiles/shaders.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkan-starter-app.dir\build.make CMakeFiles/vulkan-starter-app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36 "Finished codegen for target vulkan-starter-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38 "Finished codegen for target vulkan-starter-app"
 .PHONY : CMakeFiles/vulkan-starter-app.dir/codegen
 
 # clean rule for target.
@@ -208,12 +208,12 @@ CMakeFiles/vulkan-starter-app.dir/clean:
 CMakeFiles/shaders.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shaders.dir\build.make CMakeFiles/shaders.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shaders.dir\build.make CMakeFiles/shaders.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num= "Built target shaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=23,24 "Built target shaders"
 .PHONY : CMakeFiles/shaders.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/shaders.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles 0
 .PHONY : CMakeFiles/shaders.dir/rule
@@ -225,7 +225,7 @@ shaders: CMakeFiles/shaders.dir/rule
 # codegen rule for target.
 CMakeFiles/shaders.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shaders.dir\build.make CMakeFiles/shaders.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num= "Finished codegen for target shaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=23,24 "Finished codegen for target shaders"
 .PHONY : CMakeFiles/shaders.dir/codegen
 
 # clean rule for target.
@@ -304,7 +304,7 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/clean:
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\glfw-build\src\CMakeFiles\update_mappings.dir\build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\glfw-build\src\CMakeFiles\update_mappings.dir\build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=23 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=25 "Built target update_mappings"
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -321,7 +321,7 @@ update_mappings: _deps/glfw-build/src/CMakeFiles/update_mappings.dir/rule
 # codegen rule for target.
 _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\glfw-build\src\CMakeFiles\update_mappings.dir\build.make _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=23 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=25 "Finished codegen for target update_mappings"
 .PHONY : _deps/glfw-build/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
@@ -336,7 +336,7 @@ _deps/glfw-build/src/CMakeFiles/update_mappings.dir/clean:
 _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\vk-bootstrap-build\CMakeFiles\vk-bootstrap.dir\build.make _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\vk-bootstrap-build\CMakeFiles\vk-bootstrap.dir\build.make _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=24,25 "Built target vk-bootstrap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=26,27 "Built target vk-bootstrap"
 .PHONY : _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -353,7 +353,7 @@ vk-bootstrap: _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/rule
 # codegen rule for target.
 _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\vk-bootstrap-build\CMakeFiles\vk-bootstrap.dir\build.make _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=24,25 "Finished codegen for target vk-bootstrap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=26,27 "Finished codegen for target vk-bootstrap"
 .PHONY : _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/codegen
 
 # clean rule for target.

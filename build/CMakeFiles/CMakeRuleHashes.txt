@@ -1,3 +1,6 @@
 # Hashes of file build rules.
+1b990be53c8a5ebd96d1c109df06fcdf CMakeFiles/shaders
+057f4368b086e0e29f9c4c2521a5805c F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag.spv
+df01b845899fbec30d7b5435b47f41c9 F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert.spv
 df09a284d3960c1b91757acd17e45ae4 _deps/glfw-build/CMakeFiles/uninstall
 acf46d774e1fcb35600184e7ee396528 _deps/glfw-build/src/CMakeFiles/update_mappings

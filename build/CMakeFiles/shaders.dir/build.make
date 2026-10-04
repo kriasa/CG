@@ -65,9 +65,23 @@ include CMakeFiles/shaders.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/shaders.dir/progress.make
 
+CMakeFiles/shaders: F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert.spv
+CMakeFiles/shaders: F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag.spv
+
+F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag.spv: F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling cube.frag shader"
+	glslc F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag -o F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag.spv
+
+F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert.spv: F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=F:\3_kurs\CG\vulkan-starter-app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling cube.vert shader"
+	glslc F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert -o F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert.spv
+
 CMakeFiles/shaders.dir/codegen:
 .PHONY : CMakeFiles/shaders.dir/codegen
 
+shaders: CMakeFiles/shaders
+shaders: F:/3_kurs/CG/vulkan-starter-app/shaders/cube.frag.spv
+shaders: F:/3_kurs/CG/vulkan-starter-app/shaders/cube.vert.spv
 shaders: CMakeFiles/shaders.dir/build.make
 .PHONY : shaders
 
