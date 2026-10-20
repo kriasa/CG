@@ -2,19 +2,36 @@
 
 layout(location = 0) in vec3 in_position;
 layout(location = 1) in vec3 in_color;
+layout(location = 2) in vec3 in_normal;
 
-// One uniform block per object, each bound through its own descriptor set.
-layout(set = 0, binding = 0, std140) uniform ObjectUniforms {
-	mat4 mvp;
-	vec4 tint;   // rgb: color chosen in the UI
-	vec4 params; // x: how strongly procedural vertex colors are applied (0..1)
+// Set 0: scene data (shared by all objects)
+layout(set = 0, binding = 0, std140) uniform SceneUniforms {
+	mat4 view_projection;
+	vec4 camera_position;
+	vec4 ambient;
+	vec4 dir_direction;
+	vec4 dir_color;
+	uvec4 counts; 
+} scene;
+
+// Set 1: per-model data
+layout(set = 1, binding = 0, std140) uniform ModelUniforms {
+	mat4 model;
+	mat4 normal_matrix;
+	vec4 albedo;
+	vec4 specular;
 } object;
 
-layout(location = 0) out vec3 out_color;
+layout(location = 0) out vec3 out_world_position;
+layout(location = 1) out vec3 out_world_normal;
+layout(location = 2) out vec3 out_vertex_color;
 
 void main() {
-	gl_Position = object.mvp * vec4(in_position, 1.0);
+	const vec4 world_position = object.model * vec4(in_position, 1.0);
 
-	// UI color is multiplied by the (optionally faded) procedural vertex color.
-	out_color = mix(vec3(1.0), in_color, object.params.x) * object.tint.rgb;
+	out_world_position = world_position.xyz;
+	out_world_normal = mat3(object.normal_matrix) * in_normal;
+	out_vertex_color = in_color;
+
+	gl_Position = scene.view_projection * world_position;
 }

@@ -100,11 +100,13 @@ if(GLSLC_FOUND)
 		list(APPEND _SHADER_BINARIES ${SHADER_BINARY_PATH})
 	endmacro()
 
-	# To compile shader file, use compile_shader function with a file name
-	# of a shader inside shaders directory. See example below:
-
+	# Lit objects (Blinn-Phong)
 	compile_shader(cube.vert)
 	compile_shader(cube.frag)
+
+	# Light source visualization (constant color, unlit)
+	compile_shader(vis.vert)
+	compile_shader(vis.frag)
 
 	add_custom_target(shaders DEPENDS ${_SHADER_BINARIES})
 	add_dependencies(${PROJECT_NAME} shaders)
@@ -112,5 +114,5 @@ else()
 	message(WARNING "glslc not found: shaders will not be compiled. Install the Vulkan SDK.")
 endif()
 
-# Directory where application.cpp looks for cube.vert.spv / cube.frag.spv
+# Directory where application.cpp looks for the compiled *.spv shaders
 target_compile_definitions(${PROJECT_NAME} PRIVATE SHADER_DIR="${CMAKE_SOURCE_DIR}/shaders")
