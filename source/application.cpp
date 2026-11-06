@@ -33,7 +33,7 @@ struct Vertex {
 	float normal[3];
 };
 
-constexpr uint32_t cube_vertex_count = 24; 
+constexpr uint32_t cube_vertex_count = 24;
 constexpr uint32_t cube_index_count = 36;
 
 struct CubeMesh {
@@ -42,13 +42,14 @@ struct CubeMesh {
 };
 
 CubeMesh makeCubeMesh() {
+
 	constexpr std::array<std::array<uint32_t, 4>, 6> faces = {{
-		{ 1, 3, 7, 5 }, // +X
-		{ 0, 4, 6, 2 }, // -X
-		{ 2, 6, 7, 3 }, // +Y
-		{ 0, 1, 5, 4 }, // -Y
-		{ 4, 5, 7, 6 }, // +Z
-		{ 0, 2, 3, 1 }, // -Z
+		{ 1, 3, 7, 5 },
+		{ 0, 4, 6, 2 },
+		{ 2, 6, 7, 3 },
+		{ 0, 1, 5, 4 },
+		{ 4, 5, 7, 6 },
+		{ 0, 2, 3, 1 },
 	}};
 
 	const auto corner = [](uint32_t i) {
@@ -110,7 +111,6 @@ std::vector<std::array<float, 3>> makeConeLines() {
 		lines.push_back(rim(s * segments / spokes));
 	}
 
-	// Axis: shows the light direction.
 	lines.push_back({ 0.0f, 0.0f, 0.0f });
 	lines.push_back({ 0.0f, 0.0f, 1.0f });
 
@@ -126,10 +126,10 @@ struct Buffer {
 struct SceneUniforms {
 	Mat4 view_projection;
 	float camera_position[4];
-	float ambient[4]; 
+	float ambient[4];
 	float dir_direction[4];
-	float dir_color[4]; 
-	uint32_t counts[4];  
+	float dir_color[4];
+	uint32_t counts[4];
 };
 static_assert(sizeof(SceneUniforms) == 144, "SceneUniforms must match the std140 layout in the shaders");
 
@@ -141,16 +141,16 @@ static_assert(sizeof(PointLightGpu) == 32, "PointLightGpu must match the std430 
 
 struct SpotLightGpu {
 	float position[4];
-	float direction[4]; 
-	float color[4];   
-	float cone[4]; 
+	float direction[4];
+	float color[4];
+	float cone[4];
 };
 static_assert(sizeof(SpotLightGpu) == 64, "SpotLightGpu must match the std430 layout in cube.frag");
 
 struct ModelUniforms {
 	Mat4 model;
 	Mat4 normal_matrix;
-	float albedo[4]; 
+	float albedo[4];
 	float specular[4];
 };
 static_assert(sizeof(ModelUniforms) == 160, "ModelUniforms must match the std140 layout in the shaders");
@@ -180,8 +180,8 @@ VkPipelineLayout lit_pipeline_layout = VK_NULL_HANDLE;
 VkPipelineLayout vis_pipeline_layout = VK_NULL_HANDLE;
 
 VkPipeline lit_pipeline = VK_NULL_HANDLE;
-VkPipeline vis_solid_pipeline = VK_NULL_HANDLE; 
-VkPipeline vis_line_pipeline = VK_NULL_HANDLE;  
+VkPipeline vis_solid_pipeline = VK_NULL_HANDLE;
+VkPipeline vis_line_pipeline = VK_NULL_HANDLE;
 
 Buffer vertex_buffer;
 Buffer index_buffer;
@@ -198,7 +198,6 @@ std::array<GpuObject, object_count> gpu_objects;
 SceneUniforms scene_uniforms{};
 std::vector<PointLightGpu> gpu_point_lights;
 std::vector<SpotLightGpu> gpu_spot_lights;
-
 
 bool createBuffer(VkDeviceSize size, VkBufferUsageFlags usage, Buffer& out) {
 	const VkBufferCreateInfo buffer_info = {
@@ -414,6 +413,7 @@ bool createGraphicsPipeline(const PipelineDesc& desc, VkPipeline& out) {
 }
 
 bool createPipelines() {
+
 	const VkDescriptorSetLayoutBinding scene_bindings[] = {
 		{
 			.binding = 0,
@@ -736,7 +736,6 @@ void destroyResources() {
 	}
 }
 
-
 enum class ProjectionType : int {
 	Perspective = 0,
 	Orthographic = 1,
@@ -746,7 +745,7 @@ struct Camera {
 	ProjectionType projection = ProjectionType::Perspective;
 	Vec3 position{ 0.0f, 1.5f, 8.0f };
 	float yaw_deg = 0.0f;
-	float pitch_deg = -12.0f; 
+	float pitch_deg = -12.0f;
 	float fov_deg = 60.0f;
 	float ortho_height = 8.0f;
 	float near_plane = 0.1f;
@@ -884,7 +883,6 @@ Vec3 cameraForward() {
 	};
 }
 
-
 void drawCameraControls() {
 	if (!ImGui::CollapsingHeader("Camera / projection", ImGuiTreeNodeFlags_DefaultOpen)) {
 		return;
@@ -947,6 +945,7 @@ void drawPointLightControls() {
 	for (int i = 0; i < static_cast<int>(point_lights.size()); ++i) {
 		PointLightState& light = point_lights[static_cast<size_t>(i)];
 
+		ImGui::PushID("point_light");
 		ImGui::PushID(i);
 		if (ImGui::TreeNodeEx("light", ImGuiTreeNodeFlags_DefaultOpen, "Point light %d", i)) {
 			ImGui::DragFloat3("Position", &light.position.x, 0.05f, -30.0f, 30.0f);
@@ -958,6 +957,7 @@ void drawPointLightControls() {
 			}
 			ImGui::TreePop();
 		}
+		ImGui::PopID();
 		ImGui::PopID();
 	}
 
@@ -984,6 +984,7 @@ void drawSpotLightControls() {
 	for (int i = 0; i < static_cast<int>(spot_lights.size()); ++i) {
 		SpotLightState& light = spot_lights[static_cast<size_t>(i)];
 
+		ImGui::PushID("spot_light");
 		ImGui::PushID(i);
 		if (ImGui::TreeNodeEx("light", ImGuiTreeNodeFlags_DefaultOpen, "Spot light %d", i)) {
 			ImGui::DragFloat3("Position", &light.position.x, 0.05f, -30.0f, 30.0f);
@@ -999,6 +1000,7 @@ void drawSpotLightControls() {
 			}
 			ImGui::TreePop();
 		}
+		ImGui::PopID();
 		ImGui::PopID();
 	}
 
@@ -1192,6 +1194,7 @@ Mat4 makeViewProjection() {
 }
 
 void updateScene() {
+
 	const Vec3 light_dir = safeNormalize(directional_light.direction, { 0.0f, -1.0f, 0.0f });
 
 	scene_uniforms.view_projection = makeViewProjection();
@@ -1352,7 +1355,6 @@ void drawLightVisuals(VkCommandBuffer cmd) {
 
 }
 
-
 bool initialize() {
 	resetScene();
 
@@ -1469,4 +1471,4 @@ void render(const graphics::internal::FrameData& fd) {
 	vkEndCommandBuffer(cmd);
 }
 
-} // namespace application
+}

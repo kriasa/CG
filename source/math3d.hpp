@@ -127,8 +127,6 @@ inline Mat4 rotationXYZ(const Vec3& angles) {
 	return rotationZ(angles.z) * rotationY(angles.y) * rotationX(angles.x);
 }
 
-// Matrix whose columns are the given orthonormal basis vectors
-// (maps local +X/+Y/+Z to right/up/forward).
 inline Mat4 basis(const Vec3& right, const Vec3& up, const Vec3& forward) {
 	Mat4 r = identity();
 	r.m[0] = right.x;   r.m[1] = right.y;   r.m[2] = right.z;
@@ -137,7 +135,6 @@ inline Mat4 basis(const Vec3& right, const Vec3& up, const Vec3& forward) {
 	return r;
 }
 
-// View matrix for a camera at `eye` looking along `forward` (right-handed, camera looks down -Z).
 inline Mat4 lookAlong(const Vec3& eye, const Vec3& forward, const Vec3& world_up) {
 	const Vec3 f = normalize(forward);
 	const Vec3 r = normalize(cross(f, world_up));
