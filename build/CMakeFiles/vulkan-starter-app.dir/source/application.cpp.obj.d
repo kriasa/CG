@@ -205,12 +205,22 @@ CMakeFiles/vulkan-starter-app.dir/source/application.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/fstream.tcc \
- C:/msys64/ucrt64/include/c++/13.1.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.1.0/functional \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/std_function.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/unordered_map \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/unordered_map.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/hashtable.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/hashtable_policy.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/bits/erase_if.h \
  C:/msys64/ucrt64/include/c++/13.1.0/vector \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_uninitialized.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/vector.tcc \
+ C:/msys64/ucrt64/include/c++/13.1.0/iostream \
  F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-src/imgui.h \
  F:/3_kurs/CG/vulkan-starter-app/build/_deps/imgui-src/imconfig.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
@@ -219,4 +229,9 @@ CMakeFiles/vulkan-starter-app.dir/source/application.cpp.obj: \
  C:/msys64/ucrt64/include/stdarg.h \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
  C:/msys64/ucrt64/include/assert.h \
+ F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-src/stb_image.h \
+ C:/msys64/ucrt64/include/c++/13.1.0/math.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
  F:\3_kurs\CG\vulkan-starter-app\source\math3d.hpp

@@ -48,6 +48,15 @@ FetchContent_Declare(
 	GIT_TAG v1.92.9
 )
 
+# stb (single-header libraries, we only need stb_image.h). The repository has no
+# CMakeLists.txt and no release tags, so it is just downloaded and added to the include path.
+FetchContent_Declare(
+	stb
+	GIT_REPOSITORY https://github.com/nothings/stb.git
+	GIT_TAG master
+	GIT_SHALLOW TRUE
+)
+
 find_package(Vulkan REQUIRED)
 
 set(GLFW_LIBRARY_TYPE STATIC)
@@ -60,6 +69,7 @@ FetchContent_MakeAvailable(
 	vk-bootstrap
 	VulkanMemoryAllocator
 	imgui
+	stb
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
@@ -68,6 +78,9 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
 	vk-bootstrap::vk-bootstrap
 	GPUOpen::VulkanMemoryAllocator
 )
+
+# SYSTEM: warnings coming from the stb headers are not reported
+target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE ${stb_SOURCE_DIR})
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${imgui_SOURCE_DIR} ${imgui_SOURCE_DIR}/backends)
 target_sources(${PROJECT_NAME} PRIVATE
@@ -100,7 +113,7 @@ if(GLSLC_FOUND)
 		list(APPEND _SHADER_BINARIES ${SHADER_BINARY_PATH})
 	endmacro()
 
-	# Lit objects (Blinn-Phong)
+	# Lit objects (Blinn-Phong, textures)
 	compile_shader(cube.vert)
 	compile_shader(cube.frag)
 
@@ -116,3 +129,6 @@ endif()
 
 # Directory where application.cpp looks for the compiled *.spv shaders
 target_compile_definitions(${PROJECT_NAME} PRIVATE SHADER_DIR="${CMAKE_SOURCE_DIR}/shaders")
+
+# Directory with the texture images (cat.jpg, cat2.jpg)
+target_compile_definitions(${PROJECT_NAME} PRIVATE TEXTURE_DIR="${CMAKE_SOURCE_DIR}/textures")

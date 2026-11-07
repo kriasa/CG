@@ -1,0 +1,14 @@
+# Target labels
+ stb-populate
+# Source files and their labels
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/CMakeFiles/stb-populate
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/CMakeFiles/stb-populate.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/CMakeFiles/stb-populate-complete.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-build.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-configure.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-download.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-install.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-mkdir.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-patch.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-test.rule
+F:/3_kurs/CG/vulkan-starter-app/build/_deps/stb-subbuild/stb-populate-prefix/src/stb-populate-stamp/stb-populate-update.rule

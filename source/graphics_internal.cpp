@@ -382,7 +382,7 @@ bool rebuildSwapchain(uint32_t width, uint32_t height) {
 	return true;
 }
 
-} // namespace
+}
 
 Context context;
 
@@ -405,8 +405,11 @@ bool initialize(GLFWwindow* const window) {
 	}
 
 	vkb::PhysicalDeviceSelector pds(vkb_instance, vk_surface);
+	VkPhysicalDeviceFeatures required_features{};
+	required_features.samplerAnisotropy = VK_TRUE;
 
 	auto pds_result = pds.prefer_gpu_device_type(vkb::PreferredDeviceType::discrete)
+						 .set_required_features(required_features)
 						 .require_present()
 						 .select();
 	if (!pds_result) {
@@ -786,7 +789,7 @@ void submitAndPresent() {
 	    result == VK_SUBOPTIMAL_KHR ||
 	    vk_swapchain_resize_require) {
 		rebuildSwapchain(vk_swapchain_resize_width, vk_swapchain_resize_height);
-	} else {
+	} else if (result != VK_SUCCESS) {
 		std::cerr << "Failed to present Vulkan swapchain image\n";
 	}
 }

@@ -327,6 +327,10 @@ FETCHCONTENT_SOURCE_DIR_GLFW:PATH=
 FETCHCONTENT_SOURCE_DIR_IMGUI:PATH=
 
 //When not empty, overrides where to find pre-populated content
+// for stb
+FETCHCONTENT_SOURCE_DIR_STB:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for vk-bootstrap
 FETCHCONTENT_SOURCE_DIR_VK-BOOTSTRAP:PATH=
 
@@ -342,6 +346,9 @@ FETCHCONTENT_UPDATES_DISCONNECTED_GLFW:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of imgui
 FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of stb
+FETCHCONTENT_UPDATES_DISCONNECTED_STB:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of vk-bootstrap
 FETCHCONTENT_UPDATES_DISCONNECTED_VK-BOOTSTRAP:BOOL=OFF

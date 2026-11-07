@@ -176,6 +176,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/vk-bootstrap-subbuild/CMakeLists.txt"
   "_deps/vulkanmemoryallocator-subbuild/CMakeLists.txt"
   "_deps/imgui-subbuild/CMakeLists.txt"
+  "_deps/stb-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/glfw-build/src/glfw3Config.cmake"
   "_deps/glfw-build/src/glfw3ConfigVersion.cmake"

@@ -171,8 +171,8 @@ _deps/vulkanmemoryallocator-build/clean:
 # Target rules for target CMakeFiles/vulkan-starter-app.dir
 
 # All Build rule for target.
-CMakeFiles/vulkan-starter-app.dir/all: CMakeFiles/shaders.dir/all
 CMakeFiles/vulkan-starter-app.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
+CMakeFiles/vulkan-starter-app.dir/all: CMakeFiles/shaders.dir/all
 CMakeFiles/vulkan-starter-app.dir/all: _deps/vk-bootstrap-build/CMakeFiles/vk-bootstrap.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkan-starter-app.dir\build.make CMakeFiles/vulkan-starter-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vulkan-starter-app.dir\build.make CMakeFiles/vulkan-starter-app.dir/build
